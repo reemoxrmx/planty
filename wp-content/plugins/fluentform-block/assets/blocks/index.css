@@ -1,0 +1,1199 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/controls.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/*ffblock-panel-control-wrapper,
+ ffblock-components-popover*/
+.ffblock-components-popover,
+.ffblock-panel-control-wrapper {
+  --ffblock-control-color-primary: #0150ec;
+  --ffblock-control-color-secondary: #555555;
+  --ffblock-control-color-body: #333333;
+  --ffblock-control-color-border: #e9e9e9;
+  --ffblock-control-panel-btn-bg: #f9f9f9;
+  --ffblock-control-panel-btn-bg-hover: #efefef;
+  --ffblock-control-text-xs: 13px;
+  --ffblock-control-text-base: 13px;
+  --ffblock-control-text-sm: 13px;
+  --ffblock-control-text-md: 16px;
+  --ffblock-control-transition: all 0.3s ease-in-out;
+  --wp-admin-theme-color: #0150ec;
+  --wp-admin-theme-color--rgb: 0, 102, 255;
+  color: var(--ffblock-control-color-body);
+}
+.ffblock-components-popover .components-base-control__field,
+.ffblock-panel-control-wrapper .components-base-control__field {
+  margin-bottom: 0;
+}
+.ffblock-components-popover .components-base-control.components-toggle-control .components-base-control__field,
+.ffblock-panel-control-wrapper .components-base-control.components-toggle-control .components-base-control__field {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ffblock-components-popover .components-base-control .components-select-control .components-input-control__label,
+.ffblock-panel-control-wrapper .components-base-control .components-select-control .components-input-control__label {
+  padding-bottom: 0 !important;
+}
+.ffblock-components-popover .components-base-control,
+.ffblock-components-popover .ffblock-control-field,
+.ffblock-panel-control-wrapper .components-base-control,
+.ffblock-panel-control-wrapper .ffblock-control-field {
+  --wp-admin-theme-color: #0150ec;
+  --wp-admin-theme-color--rgb: 0, 102, 255;
+  --column-gap: 10px;
+  --row-gap: 10px;
+  display: grid;
+  gap: var(--row-gap, 10px);
+  margin-bottom: 10px;
+}
+.ffblock-components-popover .components-base-control:last-of-type,
+.ffblock-components-popover .ffblock-control-field:last-of-type,
+.ffblock-panel-control-wrapper .components-base-control:last-of-type,
+.ffblock-panel-control-wrapper .ffblock-control-field:last-of-type {
+  margin-bottom: 6px;
+}
+.ffblock-components-popover .components-base-control.ffblock-control-react-select,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-react-select,
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-react-select,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-react-select {
+  --row-gap: 6px;
+}
+.ffblock-components-popover .components-base-control.ffblock-control-react-select input[type=text]:focus,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-react-select input[type=text]:focus,
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-react-select input[type=text]:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-react-select input[type=text]:focus {
+  box-shadow: none;
+}
+.ffblock-components-popover .components-base-control.ffblock-control-react-select > div > div,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-react-select > div > div,
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-react-select > div > div,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-react-select > div > div {
+  border-color: var(--ffblock-control-color-border, #e9e9e9);
+}
+.ffblock-components-popover .components-base-control.ffblock-control-react-select [id*=react-select-],
+.ffblock-components-popover .ffblock-control-field.ffblock-control-react-select [id*=react-select-],
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-react-select [id*=react-select-],
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-react-select [id*=react-select-] {
+  z-index: 45;
+}
+.ffblock-components-popover .components-base-control.ffblock-control-range-wrap .ffblock-control-head, .ffblock-components-popover .components-base-control.ffblock-control-dimension .ffblock-control-head,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-head,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-dimension .ffblock-control-head,
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-range-wrap .ffblock-control-head,
+.ffblock-panel-control-wrapper .components-base-control.ffblock-control-dimension .ffblock-control-head,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-head,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-dimension .ffblock-control-head {
+  justify-content: space-between;
+}
+.ffblock-components-popover .components-base-control .ffblock-control-head,
+.ffblock-components-popover .ffblock-control-field .ffblock-control-head,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-control-head,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-control-head {
+  display: flex;
+  align-items: center;
+  gap: var(--column-gap, 10px);
+}
+.ffblock-components-popover .components-base-control .ffblock-control-body .components-base-control,
+.ffblock-components-popover .ffblock-control-field .ffblock-control-body .components-base-control,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-control-body .components-base-control,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-control-body .components-base-control {
+  margin-bottom: 0 !important;
+}
+.ffblock-components-popover .components-base-control .rt-left-part,
+.ffblock-components-popover .ffblock-control-field .rt-left-part,
+.ffblock-panel-control-wrapper .components-base-control .rt-left-part,
+.ffblock-panel-control-wrapper .ffblock-control-field .rt-left-part {
+  display: flex;
+  align-items: center;
+  gap: var(--column-gap, 10px);
+}
+.ffblock-components-popover .components-base-control .ffblock-units-choices,
+.ffblock-components-popover .ffblock-control-field .ffblock-units-choices,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-units-choices,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-units-choices {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.ffblock-components-popover .components-base-control .ffblock-units-choices label,
+.ffblock-components-popover .ffblock-control-field .ffblock-units-choices label,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-units-choices label,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-units-choices label {
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+}
+.ffblock-components-popover .components-base-control .ffblock-units-choices label:hover, .ffblock-components-popover .components-base-control .ffblock-units-choices label.active,
+.ffblock-components-popover .ffblock-control-field .ffblock-units-choices label:hover,
+.ffblock-components-popover .ffblock-control-field .ffblock-units-choices label.active,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-units-choices label:hover,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-units-choices label.active,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-units-choices label:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-units-choices label.active {
+  color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .components-base-control .components-base-control__help,
+.ffblock-components-popover .ffblock-control-field .components-base-control__help,
+.ffblock-panel-control-wrapper .components-base-control .components-base-control__help,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-base-control__help {
+  font-size: 12px;
+  color: var(--ffblock-control-color-secondary, #000);
+  margin-top: -5px;
+}
+.ffblock-components-popover .components-base-control .components-input-control__label,
+.ffblock-components-popover .components-base-control .components-toggle-control__label,
+.ffblock-components-popover .components-base-control .components-base-control__label,
+.ffblock-components-popover .components-base-control .ffblock-label,
+.ffblock-components-popover .ffblock-control-field .components-input-control__label,
+.ffblock-components-popover .ffblock-control-field .components-toggle-control__label,
+.ffblock-components-popover .ffblock-control-field .components-base-control__label,
+.ffblock-components-popover .ffblock-control-field .ffblock-label,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__label,
+.ffblock-panel-control-wrapper .components-base-control .components-toggle-control__label,
+.ffblock-panel-control-wrapper .components-base-control .components-base-control__label,
+.ffblock-panel-control-wrapper .components-base-control .ffblock-label,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-toggle-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-base-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field .ffblock-label {
+  font-size: var(--ffblock-control-text-base, 13px);
+  color: var(--ffblock-control-color-secondary, #000);
+  font-weight: 500;
+  line-height: 1;
+}
+.ffblock-components-popover .components-base-control .components-input-control__label,
+.ffblock-components-popover .components-base-control .components-base-control__label,
+.ffblock-components-popover .ffblock-control-field .components-input-control__label,
+.ffblock-components-popover .ffblock-control-field .components-base-control__label,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__label,
+.ffblock-panel-control-wrapper .components-base-control .components-base-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-base-control__label {
+  padding-bottom: var(--row-gap, 8px) !important;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  font-size: var(--ffblock-control-text-base, 13px) !important;
+  text-transform: capitalize !important;
+}
+.ffblock-components-popover .components-base-control .components-input-control__input,
+.ffblock-components-popover .components-base-control .components-select-control__input,
+.ffblock-components-popover .components-base-control .components-textarea-control__input,
+.ffblock-components-popover .components-base-control .components-text-control__input,
+.ffblock-components-popover .ffblock-control-field .components-input-control__input,
+.ffblock-components-popover .ffblock-control-field .components-select-control__input,
+.ffblock-components-popover .ffblock-control-field .components-textarea-control__input,
+.ffblock-components-popover .ffblock-control-field .components-text-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-select-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-textarea-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-text-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-select-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-textarea-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-text-control__input {
+  line-height: 1.5 !important;
+  height: 36px;
+  padding: 8px;
+  color: var(--ffblock-control-color-secondary, #555555) !important;
+  border-radius: 3px;
+  border: 1px solid var(--ffblock-control-color-border, #e9e9e9) !important;
+  transition: var(--ffblock-control-transition, all 0.3s ease);
+}
+.ffblock-components-popover .components-base-control .components-input-control__input:focus,
+.ffblock-components-popover .components-base-control .components-select-control__input:focus,
+.ffblock-components-popover .components-base-control .components-textarea-control__input:focus,
+.ffblock-components-popover .components-base-control .components-text-control__input:focus,
+.ffblock-components-popover .ffblock-control-field .components-input-control__input:focus,
+.ffblock-components-popover .ffblock-control-field .components-select-control__input:focus,
+.ffblock-components-popover .ffblock-control-field .components-textarea-control__input:focus,
+.ffblock-components-popover .ffblock-control-field .components-text-control__input:focus,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__input:focus,
+.ffblock-panel-control-wrapper .components-base-control .components-select-control__input:focus,
+.ffblock-panel-control-wrapper .components-base-control .components-textarea-control__input:focus,
+.ffblock-panel-control-wrapper .components-base-control .components-text-control__input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-select-control__input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-textarea-control__input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-text-control__input:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--ffblock-control-color-primary, #0150ec) !important;
+}
+.ffblock-components-popover .components-base-control .components-input-control__input,
+.ffblock-components-popover .components-base-control .components-select-control__input,
+.ffblock-components-popover .components-base-control .components-text-control__input,
+.ffblock-components-popover .ffblock-control-field .components-input-control__input,
+.ffblock-components-popover .ffblock-control-field .components-select-control__input,
+.ffblock-components-popover .ffblock-control-field .components-text-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-select-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-text-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-select-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-text-control__input {
+  height: 36px !important;
+}
+.ffblock-components-popover .components-base-control .components-textarea-control__input,
+.ffblock-components-popover .ffblock-control-field .components-textarea-control__input,
+.ffblock-panel-control-wrapper .components-base-control .components-textarea-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-textarea-control__input {
+  height: 80px;
+}
+.ffblock-components-popover .components-base-control .components-input-control__backdrop,
+.ffblock-components-popover .ffblock-control-field .components-input-control__backdrop,
+.ffblock-panel-control-wrapper .components-base-control .components-input-control__backdrop,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-input-control__backdrop {
+  display: none;
+}
+.ffblock-components-popover .components-base-control .components-form-toggle .components-form-toggle__track,
+.ffblock-components-popover .ffblock-control-field .components-form-toggle .components-form-toggle__track,
+.ffblock-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__track,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-form-toggle .components-form-toggle__track {
+  border-color: #000;
+}
+.ffblock-components-popover .components-base-control .components-form-toggle .components-form-toggle__input:focus,
+.ffblock-components-popover .ffblock-control-field .components-form-toggle .components-form-toggle__input:focus,
+.ffblock-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-form-toggle .components-form-toggle__input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-components-popover .components-base-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.ffblock-components-popover .ffblock-control-field .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.ffblock-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-components-popover .components-base-control .components-form-toggle.is-checked .components-form-toggle__track,
+.ffblock-components-popover .ffblock-control-field .components-form-toggle.is-checked .components-form-toggle__track,
+.ffblock-panel-control-wrapper .components-base-control .components-form-toggle.is-checked .components-form-toggle__track,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-form-toggle.is-checked .components-form-toggle__track {
+  border-color: var(--ffblock-control-color-primary, #0150ec);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .components-base-control .components-form-toggle.is-checked .components-form-toggle__thumb,
+.ffblock-components-popover .ffblock-control-field .components-form-toggle.is-checked .components-form-toggle__thumb,
+.ffblock-panel-control-wrapper .components-base-control .components-form-toggle.is-checked .components-form-toggle__thumb,
+.ffblock-panel-control-wrapper .ffblock-control-field .components-form-toggle.is-checked .components-form-toggle__thumb {
+  background-color: #fff;
+  border-color: #fff;
+}
+.ffblock-components-popover .ffblock-control-single-field,
+.ffblock-panel-control-wrapper .ffblock-control-single-field {
+  margin-top: 10px;
+}
+.ffblock-components-popover .ffblock-reset-btn.components-button, .ffblock-components-popover .ffblock-reset-btn.has-icon,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon {
+  font-size: 16px;
+  padding: 0;
+  background-color: transparent;
+}
+.ffblock-components-popover .ffblock-reset-btn.components-button:hover, .ffblock-components-popover .ffblock-reset-btn.has-icon:hover,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button:hover,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon:hover {
+  background-color: transparent;
+}
+.ffblock-components-popover .ffblock-reset-btn.components-button:focus, .ffblock-components-popover .ffblock-reset-btn.components-button:hover, .ffblock-components-popover .ffblock-reset-btn.components-button:active, .ffblock-components-popover .ffblock-reset-btn.has-icon:focus, .ffblock-components-popover .ffblock-reset-btn.has-icon:hover, .ffblock-components-popover .ffblock-reset-btn.has-icon:active,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button:focus,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button:hover,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button:active,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon:focus,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon:hover,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon:active {
+  outline: 0;
+  box-shadow: none;
+}
+.ffblock-components-popover .ffblock-reset-btn.components-button span, .ffblock-components-popover .ffblock-reset-btn.has-icon span,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.components-button span,
+.ffblock-panel-control-wrapper .ffblock-reset-btn.has-icon span {
+  font-size: inherit;
+  height: auto;
+}
+
+/*.ffblock-components-popover*/
+.ffblock-components-popover .components-base-control .components-input-control__label,
+.ffblock-components-popover .components-base-control .components-base-control__label,
+.ffblock-components-popover .ffblock-control-field .components-input-control__label,
+.ffblock-components-popover .ffblock-control-field .components-base-control__label {
+  margin-bottom: 6px !important;
+}
+.ffblock-components-popover .components-base-control .components-input-control__input,
+.ffblock-components-popover .components-base-control .components-select-control__input,
+.ffblock-components-popover .components-base-control .components-text-control__input,
+.ffblock-components-popover .ffblock-control-field .components-input-control__input,
+.ffblock-components-popover .ffblock-control-field .components-select-control__input,
+.ffblock-components-popover .ffblock-control-field .components-text-control__input {
+  height: 34px !important;
+}
+
+/*ffblock-components-popover*/
+.ffblock-components-popover {
+  --row-gap: 8px;
+}
+.ffblock-components-popover .components-input-control__backdrop {
+  display: none;
+}
+.ffblock-components-popover .components-popover__content::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+.ffblock-components-popover .components-popover__content::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #0150ec 0%, #488cf1 100%, #9dff00 0%, #f5440f 100%);
+  border-radius: 8px;
+}
+.ffblock-components-popover .components-popover__content::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1000vh black;
+  border-radius: 8px;
+}
+
+/*ffblock-tab-controls*/
+.ffblock-tab-controls .components-button {
+  font-size: var(--ffblock-control-text-base, 13px);
+  background-color: var(--ffblock-control-panel-btn-bg, #f9f9f9);
+}
+.ffblock-tab-controls .components-button .components-panel__arrow {
+  color: inherit;
+}
+.ffblock-tab-controls .components-button:hover {
+  background-color: var(--ffblock-control-panel-btn-bg-hover, #efefef);
+}
+.ffblock-tab-controls .components-panel__body-title > .components-button {
+  font-weight: 500;
+}
+.ffblock-tab-controls .components-panel__body .components-panel__body {
+  margin-bottom: 10px;
+}
+.ffblock-tab-controls .components-panel__body .components-panel__body > .components-panel__body-title > .components-button {
+  padding: 12px 48px 12px 16px;
+}
+.ffblock-tab-controls .ffblock-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ffblock-tab-controls .ffblock-btn-group .components-button {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-tab-controls .ffblock-btn-group .components-button:active, .ffblock-tab-controls .ffblock-btn-group .components-button:focus, .ffblock-tab-controls .ffblock-btn-group .components-button:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-tab-controls .ffblock-btn-group .components-button.is-secondary:active, .ffblock-tab-controls .ffblock-btn-group .components-button.is-secondary:focus, .ffblock-tab-controls .ffblock-btn-group .components-button.is-secondary:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-tab-controls .ffblock-btn-group .components-button.is-secondary:hover {
+  color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button,
+.ffblock-tab-controls .ffblock-btn-group .components-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: var(--ffblock-control-text-xs, 12px);
+  color: var(--ffblock-control-color-secondary, #555);
+  background-color: var(--ffblock-admin-color-white, #fff);
+  border: 1px solid var(--ffblock-control-color-border, #e9e9e9);
+  padding: 2px;
+  height: 32px;
+  cursor: pointer;
+  transition: var(--ffblock-control-transition, all 0.3s ease-in-out);
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button:first-of-type,
+.ffblock-tab-controls .ffblock-btn-group .components-button:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button:last-of-type,
+.ffblock-tab-controls .ffblock-btn-group .components-button:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button:not(:last-of-type),
+.ffblock-tab-controls .ffblock-btn-group .components-button:not(:last-of-type) {
+  border-right: none;
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button .components-button + .components-button,
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button .ffblock-button + .ffblock-button,
+.ffblock-tab-controls .ffblock-btn-group .components-button .components-button + .components-button,
+.ffblock-tab-controls .ffblock-btn-group .components-button .ffblock-button + .ffblock-button {
+  margin: 0;
+}
+.ffblock-tab-controls .ffblock-btn-group .ffblock-button.is-primary, .ffblock-tab-controls .ffblock-btn-group .ffblock-button.active,
+.ffblock-tab-controls .ffblock-btn-group .components-button.is-primary,
+.ffblock-tab-controls .ffblock-btn-group .components-button.active {
+  border-color: var(--ffblock-control-color-primary, #0150ec);
+  color: var(--ffblock-admin-color-white, #fff);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-tab-controls .ffblock-btn-group.ffblock-btn-group-state {
+  margin-bottom: 8px;
+}
+.ffblock-tab-controls .ffblock-btn-group.ffblock-btn-group-state .components-button {
+  height: 34px;
+  font-weight: 500;
+  font-size: var(--ffblock-control-text-base, 13px);
+}
+.ffblock-tab-controls .components-panel__body.is-opened > .components-panel__body-title {
+  margin-bottom: 10px;
+}
+
+.ffblock-panel-control-wrapper .ffblock-image-avatar {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 5px;
+  background-color: var(--ffblock-control-panel-btn-bg-hover, #efefef);
+}
+.ffblock-panel-control-wrapper .ffblock-image-avatar .ffblock-img-avt-action-group {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ffblock-panel-control-wrapper .ffblock-image-avatar .ffblock-img-avt-action-group .components-button {
+  border: none;
+  padding: 5px !important;
+  min-height: 30px;
+  width: auto;
+  line-height: 1;
+  height: auto;
+  font-size: 15px !important;
+  color: var(--ffblock-control-color-primary, #0150ec);
+  transition: 0.3s;
+  border-radius: 4px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+}
+.ffblock-panel-control-wrapper .ffblock-image-avatar .ffblock-img-avt-action-group .components-button:hover {
+  color: var(--ffblock-admin-color-white, #fff);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-panel-control-wrapper .ffblock-image-avatar .ffblock-img-avt-action-group .components-button:focus {
+  color: var(--ffblock-admin-color-white, #fff);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-panel-control-wrapper .ffblock-img-remove-btn {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.ffblock-panel-control-wrapper .ffblock-img-remove-btn span {
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+/*panelBody common section advanced button*/
+.block-editor-block-inspector .components-base-control {
+  margin-bottom: 10px;
+}
+.block-editor-block-inspector .components-base-control:last-of-type {
+  margin-bottom: 6px;
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input,
+.block-editor-block-inspector .components-base-control .components-text-control__input {
+  line-height: 1.5 !important;
+  height: 36px;
+  padding: 8px;
+  color: var(--ffblock-control-color-secondary, #555);
+  border-radius: 3px;
+  border: 1px solid var(--ffblock-control-color-border, #e9e9e9);
+  transition: var(--ffblock-control-transition, all 0.3s ease-in-out);
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input:focus,
+.block-editor-block-inspector .components-base-control .components-text-control__input:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input {
+  height: 80px;
+}
+.block-editor-block-inspector .components-base-control .components-base-control__label,
+.block-editor-block-inspector .components-base-control .components-toggle-control__label {
+  font-size: var(--ffblock-control-text-base, 13px);
+  color: var(--ffblock-control-color-secondary, #555);
+  font-weight: 500;
+}
+.block-editor-block-inspector .components-base-control .components-base-control__label {
+  margin-bottom: var(--row-gap, 10px);
+  display: inline-block;
+  text-transform: capitalize;
+}
+.block-editor-block-inspector__advanced .components-button {
+  font-size: var(--ffblock-control-text-base, 13px);
+  background-color: var(--ffblock-control-panel-btn-bg, #f9f9f9);
+  font-weight: 500;
+  border-bottom: 1px solid #e0e0e0;
+}
+.block-editor-block-inspector__advanced .components-button .components-panel__arrow {
+  color: inherit;
+}
+.block-editor-block-inspector__advanced .components-button:hover {
+  background-color: var(--ffblock-control-panel-btn-bg-hover, #efefef);
+}
+.block-editor-block-inspector__advanced .components-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.block-editor-block-inspector__advanced.is-opened .components-button {
+  border-bottom-color: transparent !important;
+}
+.block-editor-block-inspector .components-panel__body {
+  border: none;
+  border-top: 1px solid #efefef;
+  margin: 0;
+}
+
+.ffblock-panel-control-wrapper [data-tooltip]:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  padding: 6px 10px;
+  color: #fff;
+  background: #1a1a1a;
+  border-radius: 4px;
+  border-width: 0;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 13px;
+  box-shadow: none;
+  right: -70px;
+}
+.ffblock-panel-control-wrapper [data-tooltip]:hover::before {
+  margin: 0;
+  opacity: 1;
+  z-index: 1000;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/gradient.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-color,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-color {
+  row-gap: 0;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap {
+  --row-gap: 12px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__swatches,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__swatches {
+  gap: 8px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper {
+  height: 22px;
+  width: 22px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper:hover {
+  transform: scale(1);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper::before,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper::before {
+  display: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper > svg,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option-wrapper > svg {
+  display: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option {
+  position: relative;
+  padding: 5px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option::after,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option::after {
+  display: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option.is-pressed, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option.is-pressed,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option:hover {
+  box-shadow: none !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option.is-pressed::before,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__option.is-pressed::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%0A%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 448 512%27 width=%271em%27 height=%271em%27 fill=%27%23ffffff%27 %3E%3Cpath d=%27M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z%27/%3E%3C/svg%3E") !important;
+  pointer-events: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper {
+  margin-top: 6px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button {
+  font-size: var(--ffblock-control-text-xs, 12px);
+  padding: 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: none;
+  color: var(--ffblock-control-color-black, #000);
+  background-color: #e0e0e0;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:hover {
+  color: var(--ffblock-admin-color-white, #fff);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker > div:nth-of-type(2) > div:nth-of-type(2) > div,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker > div:nth-of-type(2) > div:nth-of-type(2) > div {
+  position: relative !important;
+  top: 6.5px !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__gradient-bar,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__gradient-bar {
+  height: 36px;
+  border-radius: 4px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__markers-container,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__markers-container {
+  height: 100%;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button {
+  color: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+  background: transparent;
+  border: 2.5px solid #ffffff;
+  box-shadow: none;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:hover, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:focus, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:hover, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:hover, .ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__control-point-button:hover {
+  background: transparent;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__insert-point {
+  top: 11px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-select-control__input,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-textarea-control__input,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-input-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-select-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-textarea-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-input-control__input {
+  height: 34px !important;
+  min-height: 34px !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-input-control__backdrop,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-input-control__backdrop {
+  display: none !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle {
+  border: 1px solid var(--ffblock-control-color-border);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle-indicator,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle-indicator {
+  background: var(--ffblock-control-color-primary, #0150ec);
+  border-radius: 50%;
+  border-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line {
+  margin-bottom: 6px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-input-control__label,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-input-control__label {
+  text-transform: capitalize;
+  padding-bottom: 8px !important;
+  margin-bottom: 0 !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type {
+  align-self: baseline;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container {
+  height: 34px !important;
+  border: 1px solid var(--ffblock-control-color-border);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-truncate,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-truncate {
+  color: var(--ffblock-control-color-primary, #0150ec) !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-input-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-input-control__input {
+  border: none !important;
+  height: 31.5px !important;
+  min-height: 31.5px !important;
+  padding-right: 0 !important;
+  padding-left: 6px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--ffblock-control-color-primary);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/color.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-color-wrap,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-color-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-color-wrap .ffblock-color,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-color-wrap .ffblock-color {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-color-wrap .ffblock-color-ball,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-color-wrap .ffblock-color-ball {
+  background-image: linear-gradient(45deg, #e9e9e9 25%, transparent 0), linear-gradient(-45deg, #e9e9e9 25%, transparent 0), linear-gradient(45deg, transparent 75%, #e9e9e9 0), linear-gradient(-45deg, transparent 75%, #e9e9e9 0);
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  background-size: 10px 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/devices.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-device-switcher,
+.ffblock-panel-control-wrapper .ffblock-device-switcher {
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  height: 0;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.15s;
+  font-size: 12px;
+}
+.ffblock-components-popover .ffblock-device-switcher i,
+.ffblock-panel-control-wrapper .ffblock-device-switcher i {
+  font-size: initial;
+}
+.ffblock-components-popover .ffblock-device-switcher.active,
+.ffblock-panel-control-wrapper .ffblock-device-switcher.active {
+  height: 24px;
+  transform: scale(1);
+  opacity: 1;
+  color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .ffblock-device-switchers,
+.ffblock-panel-control-wrapper .ffblock-device-switchers {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.ffblock-components-popover .ffblock-device-switchers-wrap,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-wrap {
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  color: #e0e1e3;
+  z-index: 44;
+}
+.ffblock-components-popover .ffblock-device-switchers-open .ffblock-device-switchers-wrap,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-open .ffblock-device-switchers-wrap {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border-radius: 2px;
+}
+.ffblock-components-popover .ffblock-device-switchers-open.active-md .ffblock-device-switchers-wrap,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-open.active-md .ffblock-device-switchers-wrap {
+  top: 0;
+}
+.ffblock-components-popover .ffblock-device-switchers-open.active-sm .ffblock-device-switchers-wrap,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-open.active-sm .ffblock-device-switchers-wrap {
+  top: 0;
+}
+.ffblock-components-popover .ffblock-device-switchers-open.active-xs .ffblock-device-switchers-wrap,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-open.active-xs .ffblock-device-switchers-wrap {
+  top: 0;
+}
+.ffblock-components-popover .ffblock-device-switchers-open .ffblock-device-switcher,
+.ffblock-panel-control-wrapper .ffblock-device-switchers-open .ffblock-device-switcher {
+  height: 24px;
+  transform: scale(1);
+  opacity: 1;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/SelectBGDevice.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-bg-property,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-bg-property {
+  margin-bottom: 0 !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-bg-property .ffblock-control-body > *,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-bg-property .ffblock-control-body > * {
+  margin-bottom: 0 !important;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/bgImage.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-bg-img .components-base-control__field,
+.ffblock-panel-control-wrapper .ffblock-bg-img .components-base-control__field {
+  display: grid;
+  gap: 6px;
+}
+.ffblock-components-popover .ffblock-bg-img .components-base-control .ffblock-img-remove-btn,
+.ffblock-components-popover .ffblock-bg-img .components-base-control .ffblock-image-avatar,
+.ffblock-panel-control-wrapper .ffblock-bg-img .components-base-control .ffblock-img-remove-btn,
+.ffblock-panel-control-wrapper .ffblock-bg-img .components-base-control .ffblock-image-avatar {
+  margin-bottom: 0;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/background.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-btn-group,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-btn-group {
+  flex-grow: 1;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn {
+  padding: 0;
+  background-color: transparent;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:hover {
+  background-color: transparent;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:focus, .ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:hover, .ffblock-components-popover .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:active,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-background-wrap .ffblock-control-body-btn-wrap .ffblock-reset-btn:active {
+  outline: 0;
+  box-shadow: none;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/alignment.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-alignment-wrap .ffblock-btn-group .ffblock-button svg,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-alignment-wrap .ffblock-btn-group .ffblock-button i,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-alignment-wrap .ffblock-btn-group .ffblock-button svg,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-alignment-wrap .ffblock-btn-group .ffblock-button i {
+  font-size: var(--ffblock-control-text-md);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/rangeDevice.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap {
+  --row-gap: 5px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .components-input-control__input,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .components-input-control__input {
+  height: 30px !important;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper {
+  color: var(--ffblock-admin-color-primary, #0150ec);
+  min-height: 25px;
+  height: 25px;
+  flex: unset;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper .acf-bf-cf-b-afb-199wkr,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper .acf-bf-cf-b-afb-199wkr {
+  background-color: var(--ffblock-admin-color-primary, #0150ec);
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper + .components-base-control.components-input-control,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .components-range-control__wrapper + .components-base-control.components-input-control {
+  width: 50%;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .components-base-control,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .components-base-control__field,
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-control-field,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .components-base-control,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .components-base-control__field,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-control-field {
+  margin-bottom: 0;
+  width: 100%;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn {
+  font-size: 16px;
+  color: var(--ffblock-control-color-secondary, #555);
+  background-color: transparent;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn span,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn span {
+  font-size: inherit;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn:focus,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-range-wrap .ffblock-control-body .ffblock-reset-btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/boxshadow.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-boxshadow-content,
+.ffblock-panel-control-wrapper .ffblock-boxshadow-content {
+  min-width: 220px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/dimension.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-dimensions,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions {
+  overflow: hidden;
+  display: flex;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension:first-child input,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension:first-child input {
+  border-left: 1px solid var(--ffblock-control-color-border);
+  border-radius: 3px 0 0 3px;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension input,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension input {
+  border-left: none;
+  border-radius: 0;
+  padding: 4px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 27px;
+  border-color: var(--ffblock-control-color-border);
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension input:active, .ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension input:focus, .ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension input:hover,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension input:active,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension input:focus,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension input:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid var(--ffblock-control-color-border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions.linked,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions.linked {
+  background-color: var(--ffblock-control-color-primary);
+  color: #ffffff;
+  border-color: var(--ffblock-control-color-primary);
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions .rt-dm-link-icon,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions .rt-dm-link-icon {
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions:focus, .ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions:focus-visible,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions:focus,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension .ffblock-link-dimensions:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+.ffblock-components-popover .ffblock-control-dimensions .ffblock-control-dimension-label,
+.ffblock-panel-control-wrapper .ffblock-control-dimensions .ffblock-control-dimension-label {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/typography.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.ffblock-components-popover .ffblock-control-field.ffblock-control-typography-wrap,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-typography-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-typography-wrap .components-button,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-typography-wrap .components-button {
+  font-size: var(--ffblock-control-text-base, 14px);
+  background-color: #e0e0e0;
+  height: 28px !important;
+  width: 28px !important;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-typography-wrap .components-button > span,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-typography-wrap .components-button > span {
+  transition: unset;
+}
+.ffblock-components-popover .ffblock-control-field.ffblock-control-typography-wrap .components-button:hover,
+.ffblock-panel-control-wrapper .ffblock-control-field.ffblock-control-typography-wrap .components-button:hover {
+  color: var(--ffblock-admin-color-white, #fff);
+  background-color: var(--ffblock-control-color-primary, #0150ec);
+}
+.ffblock-components-popover .ffblock-typography-content,
+.ffblock-panel-control-wrapper .ffblock-typography-content {
+  min-width: 230px;
+  padding: 5px 6px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/headerTab.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.ffblock-panel-control-wrapper .ffblock-tab-group {
+  display: flex;
+  position: relative;
+  background: #fff;
+  position: sticky;
+  top: 47px;
+  z-index: 999;
+  box-shadow: 0 4px 5px 0 rgba(32, 33, 36, 0.09);
+}
+.ffblock-panel-control-wrapper .ffblock-tab-group .ffblock-tab {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 5px;
+  width: 100%;
+  color: #1a1a1a;
+  border-top: 1px solid #e0e0e0 !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  background: #f2f2f2;
+  border-right: 1px solid #e0e0e0;
+}
+.ffblock-panel-control-wrapper .ffblock-tab-group .ffblock-tab.active {
+  background: #dde7fb;
+  color: #0150ec;
+  border-bottom: 2px solid #0150ec !important;
+}
+.ffblock-panel-control-wrapper .ffblock-tab-group .ffblock-tab.active svg path {
+  fill: #0150ec !important;
+}
+.ffblock-panel-control-wrapper .ffblock-tab-group .ffblock-tab svg {
+  width: 18px;
+}
+.ffblock-panel-control-wrapper .ffblock-tab-group .ffblock-tab .ffblock-tab-label {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.ffblock-panel-control-wrapper .components-button:focus:not(:disabled) {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.ffblock-panel-control-wrapper .components-button-group .components-button + .components-button {
+  margin-left: 0 !important;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/scss/tabPanelControl.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.ffblock-nh-tab-panel .components-tab-panel__tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.ffblock-nh-tab-panel .components-tab-panel__tabs::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: -16px;
+  right: 0px;
+  width: 113%;
+  height: 1px;
+  background-color: #e9e9e9;
+}
+.ffblock-nh-tab-panel .ffblock-tab {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  color: #000;
+  height: 40px;
+  line-height: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.ffblock-nh-tab-panel .ffblock-tab.active-tab {
+  color: #0150ec;
+  background-color: transparent;
+  border: 1px solid #e9e9e9;
+  border-bottom-color: #fff !important;
+}
+.ffblock-nh-tab-panel .components-tab-panel__tabs-item:focus:not(:disabled) {
+  box-shadow: none;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/fluentform/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+
+
+/*# sourceMappingURL=index.css.map*/

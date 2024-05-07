@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Fluent Form Blcok",
+	"name": "ffblock/fluentform",
+	"category": "fluentform-block",
+	"description": "Fluent form block description",
+	"keywords": [
+		"fluentform",
+		"block",
+		"fluentform block"
+	],
+	"apiVersion": 2,
+	"textdomain": "fluentform-block",
+	"supports": {
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		]
+	}
+}

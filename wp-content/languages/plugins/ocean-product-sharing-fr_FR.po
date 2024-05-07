@@ -1,0 +1,68 @@
+# Translation of Plugins - Ocean Product Sharing - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Ocean Product Sharing - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-03 13:24:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Ocean Product Sharing - Stable (latest release)\n"
+
+#: ocean-product-sharing.php:288
+msgid "Sharing Buttons"
+msgstr "Boutons de partage"
+
+#: ocean-product-sharing.php:319
+msgid "Borders Color"
+msgstr "Couleur des bordures"
+
+#: ocean-product-sharing.php:369
+msgid "Icons Color"
+msgstr "Couleur des icônes"
+
+#: template/product-share.php:46
+msgid "Tweet This Product"
+msgstr "Partager sur Twitter"
+
+#: template/product-share.php:57 template/product-share.php:66
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: template/product-share.php:89
+msgid "Pin This Product"
+msgstr "Partager sur Pinterest"
+
+#. Author URI of the plugin
+msgid "https://oceanwp.org/"
+msgstr "https://oceanwp.org/"
+
+#. Author of the plugin
+msgid "OceanWP"
+msgstr "OceanWP"
+
+#. Plugin URI of the plugin
+msgid "https://oceanwp.org/extension/ocean-product-sharing/"
+msgstr "https://oceanwp.org/extension/ocean-product-sharing/"
+
+#. Plugin Name of the plugin
+msgid "Ocean Product Sharing"
+msgstr "Ocean Product Sharing"
+
+#: ocean-product-sharing.php:173 ocean-product-sharing.php:183
+msgid "Cheatin&#8217; huh?"
+msgstr "Quelque chose s’est mal passé ?"
+
+#: ocean-product-sharing.php:267 ocean-product-sharing.php:474
+msgid "Product Sharing"
+msgstr "Partagede produit"
+
+#: ocean-product-sharing.php:344
+msgid "Icons Background Color"
+msgstr "Couleur d’arrière-plan des icônes"
+
+#: template/product-share.php:108
+msgid "Mail This Product"
+msgstr "Envoyer ce produit par e-mail"

@@ -1,0 +1,881 @@
+# Copyright (C) 2023 wpmetablock
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Forms Block - Extention Of Fluent Forms 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluentform-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-25T12:53:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: fluentform-block\n"
+
+#. Plugin Name of the plugin
+msgid "Fluent Forms Block - Extention Of Fluent Forms"
+msgstr ""
+
+#. Description of the plugin
+msgid "Fluent forms block is the extention of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpmetablock"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:22
+msgid "Session Expired!!"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:32
+msgid "Please select a valid fluentform."
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:41
+msgid "Fluent Form Block"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:55
+msgid "Fluent Form Block Pattern"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:69
+msgid "Fluent form contact form block"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:70
+msgid "Description of Fluent form contact form block pattern."
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:80
+msgid "Fluent form subscription form block"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:81
+msgid "Description of Fluent form subscription form block pattern."
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:66
+#: app/Ctrl/Dependencies.php:76
+#: app/Ctrl/Dependencies.php:116
+msgid "Fluent Forms Block"
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:67
+#: app/Ctrl/Dependencies.php:77
+msgid "requires"
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:68
+#: app/Ctrl/Dependencies.php:78
+msgid "Fluentform"
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:69
+msgid "plugin to be active. Please activate Fluentform to continue."
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:71
+msgid "Activate Fluentform"
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:79
+msgid "plugin to be installed and activated. Please install Fluentform to continue."
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:81
+msgid "Install Fluentform"
+msgstr ""
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: app/Ctrl/Dependencies.php:115
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:117
+msgid "PHP"
+msgstr ""
+
+#: app/Ctrl/Dependencies.php:136
+msgid "and"
+msgstr ""
+
+#: app/Helper/Fns.php:104
+msgid "Select a Form"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:36
+msgid "Classic"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:37
+msgid "Gradient"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/FontPicker.js:21
+#: src/globals/Constants.js:41
+#: src/globals/Constants.js:54
+#: src/globals/Constants.js:61
+#: src/globals/Constants.js:69
+#: src/globals/Constants.js:82
+#: src/globals/Constants.js:93
+msgid "Default"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:42
+msgid "Left Top"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:43
+msgid "Left Center"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:44
+msgid "Left Bottom"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:45
+msgid "Right Top"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:46
+msgid "Right Center"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:47
+msgid "Right Bottom"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:48
+msgid "Center Top"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:49
+msgid "Center Center"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:50
+msgid "Center Bottom"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:55
+msgid "Auto"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:56
+msgid "Cover"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:57
+msgid "Contain"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:62
+msgid "No Repeat"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:63
+msgid "Repeat"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:64
+msgid "Repeat X"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:65
+msgid "Repeat Y"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:70
+msgid "Scroll"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:71
+msgid "Fixed"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:75
+msgid "None"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:76
+msgid "Lowercase"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:77
+msgid "Capitalize"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:78
+msgid "Uppercase"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:83
+msgid "Light"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:84
+#: src/globals/Constants.js:94
+msgid "Normal"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:85
+msgid "Medium"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:86
+msgid "Semi Bold"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:87
+msgid "Bold"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:88
+msgid "Extra Bold"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:89
+msgid "Heavy Bold"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:95
+msgid "Italic"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:96
+msgid "Oblique"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:101
+#: src/globals/Constants.js:231
+msgid "H1"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:102
+#: src/globals/Constants.js:232
+msgid "H2"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:103
+#: src/globals/Constants.js:233
+msgid "H3"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:104
+#: src/globals/Constants.js:234
+msgid "H4"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:105
+#: src/globals/Constants.js:235
+msgid "H5"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:106
+#: src/globals/Constants.js:236
+msgid "H6"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:158
+#: src/globals/Constants.js:168
+msgid "1 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:159
+#: src/globals/Constants.js:169
+msgid "2 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:160
+#: src/globals/Constants.js:170
+msgid "3 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:161
+#: src/globals/Constants.js:171
+msgid "4 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:162
+#: src/globals/Constants.js:172
+msgid "5 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:163
+#: src/globals/Constants.js:173
+msgid "6 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:164
+msgid "7 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:165
+msgid "8 Col"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:237
+msgid "Span"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/globals/Constants.js:238
+msgid "P"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Devices.js:28
+msgid "Desktop"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Devices.js:33
+msgid "Tablet"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Devices.js:38
+msgid "Mobile"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:306
+#: src/blocks/fluentform/inspector.js:362
+#: src/blocks/fluentform/inspector.js:443
+#: src/blocks/fluentform/inspector.js:489
+#: src/blocks/fluentform/inspector.js:515
+#: src/blocks/fluentform/inspector.js:549
+#: src/blocks/fluentform/inspector.js:577
+#: src/blocks/fluentform/inspector.js:719
+#: src/blocks/fluentform/inspector.js:756
+#: src/components/Background/BGImage.js:49
+msgid "Background Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:54
+msgid "Background Image"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:71
+msgid "Upload Image"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:92
+msgid "Background Position"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:107
+msgid "Background Attachment"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:119
+msgid "Background Repeat"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Background/BGImage.js:131
+msgid "Background Size"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Alignment.js:60
+msgid "Left"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Alignment.js:65
+msgid "Middle"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Alignment.js:70
+#: src/components/Alignment.js:75
+msgid "Right"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/BorderDimension.js:18
+msgid "Border Style"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:423
+#: src/blocks/fluentform/inspector.js:524
+#: src/blocks/fluentform/inspector.js:728
+#: src/blocks/fluentform/inspector.js:764
+#: src/components/BorderDimension.js:27
+msgid "Border Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:43
+msgid "Font Family"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:50
+msgid "Font Size"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:62
+msgid "Font Weight"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:71
+msgid "Font Style"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:80
+msgid "Text Transform"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:89
+msgid "Letter Spacing"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/Typography.js:101
+msgid "Line Height"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:58
+msgid "Margin & Padding"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:63
+msgid "Margin Top"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:74
+msgid "Margin Bottom"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:238
+#: src/blocks/fluentform/inspector.js:464
+#: src/blocks/fluentform/inspector.js:632
+#: src/components/AdvancedControl.js:98
+msgid "Padding"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:110
+msgid "Background"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:130
+msgid "Background Transition"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:143
+msgid "Enable Overlay"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:254
+#: src/blocks/fluentform/inspector.js:650
+#: src/components/AdvancedControl.js:163
+msgid "Border"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:271
+#: src/blocks/fluentform/inspector.js:295
+#: src/blocks/fluentform/inspector.js:663
+#: src/blocks/fluentform/inspector.js:680
+#: src/components/AdvancedControl.js:175
+#: src/components/AdvancedControl.js:196
+msgid "Border Radius"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:210
+msgid "Shadow"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:227
+msgid "Show/Hide Condition"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:229
+msgid "Hide on desktop"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:237
+msgid "Hide on Tablet"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:245
+msgid "Hide on Mobile"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:254
+#: src/components/AdvancedControl.js:256
+msgid "Z-Index"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/components/AdvancedControl.js:266
+msgid "Coustom CSS"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:109
+msgid "General"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/edit.js:117
+#: src/blocks/fluentform/inspector.js:111
+msgid "Fluent Form"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:121
+msgid "Form list from plugin fluent form list"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:125
+msgid "Display Labels"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:133
+msgid "Display Placeholder"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:141
+msgid "Display Error Message"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:159
+msgid "Alignment"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:168
+msgid "Alignment field working when form max width field value set"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:176
+msgid "Label"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:178
+#: src/blocks/fluentform/inspector.js:341
+#: src/blocks/fluentform/inspector.js:475
+#: src/blocks/fluentform/inspector.js:501
+#: src/blocks/fluentform/inspector.js:535
+#: src/blocks/fluentform/inspector.js:560
+#: src/blocks/fluentform/inspector.js:703
+#: src/blocks/fluentform/inspector.js:740
+msgid "Typography"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:184
+#: src/blocks/fluentform/inspector.js:347
+#: src/blocks/fluentform/inspector.js:710
+#: src/blocks/fluentform/inspector.js:747
+msgid "Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:191
+msgid "Space"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:203
+msgid "Input/Textarea/Select"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:211
+msgid "Input Width"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:223
+msgid "Input Height"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:248
+#: src/blocks/fluentform/inspector.js:454
+#: src/blocks/fluentform/inspector.js:642
+msgid "Margin"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:311
+msgid "Textarea"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:314
+msgid "Textarea Width"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:326
+msgid "Textarea Height"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:339
+msgid "Placeholder"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:354
+msgid "Checkbox & Radio"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:356
+msgid "Label Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:368
+msgid "Checked Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:374
+msgid "Size"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:386
+msgid "Item To Label Space"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:399
+msgid "Item Bottom Space"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:411
+msgid "Border Width"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:429
+msgid "Checkbox Rounded Corners"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:441
+msgid "Section Break"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:472
+msgid "Heading"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:481
+#: src/blocks/fluentform/inspector.js:507
+#: src/blocks/fluentform/inspector.js:541
+#: src/blocks/fluentform/inspector.js:569
+msgid "Text Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:498
+msgid "Description"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:533
+msgid "Custom HTML"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:558
+msgid "Submit Button"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:587
+msgid "Hover Text Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:595
+msgid "Hover Background Color"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:606
+msgid "Width"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:618
+msgid "Height"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:688
+msgid "Box Shadow"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:700
+msgid "Success Message"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/inspector.js:737
+msgid "Error Message"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/edit.js:116
+msgid "Fluent form is not installed on your site please install and activate "
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/edit.js:126
+msgid "Please Select A Form"
+msgstr ""
+
+#: assets/blocks/index.js:1
+#: src/blocks/fluentform/edit.js:95
+msgid "No Fluentform found."
+msgstr ""
+
+#: src/components/BoxShadow.js:36
+msgid "Shadow Color"
+msgstr ""
+
+#: src/components/BoxShadow.js:41
+msgid "Horizontal Offset"
+msgstr ""
+
+#: src/components/BoxShadow.js:49
+msgid "Vertical Offset"
+msgstr ""
+
+#: src/components/BoxShadow.js:57
+msgid "Shadow Blur"
+msgstr ""
+
+#: src/components/BoxShadow.js:65
+msgid "Shadow Spread"
+msgstr ""
+
+#: src/components/BoxShadow.js:75
+msgid "Shadow Transition"
+msgstr ""
+
+#: src/components/IconControl.js:58
+msgid "Component props options is mandatory"
+msgstr ""
+
+#: app/Block/fluentform/block.json
+msgctxt "block title"
+msgid "Fluent Form Blcok"
+msgstr ""
+
+#: app/Block/fluentform/block.json
+msgctxt "block description"
+msgid "Fluent form block description"
+msgstr ""
+
+#: app/Block/fluentform/block.json
+msgctxt "block keyword"
+msgid "fluentform"
+msgstr ""
+
+#: app/Block/fluentform/block.json
+msgctxt "block keyword"
+msgid "block"
+msgstr ""
+
+#: app/Block/fluentform/block.json
+msgctxt "block keyword"
+msgid "fluentform block"
+msgstr ""
